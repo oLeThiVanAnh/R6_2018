@@ -1,0 +1,345 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FFB4584720F22B30003C438C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFB4584620F22B30003C438C /* AppDelegate.swift */; };
+		FFB4584920F22B30003C438C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFB4584820F22B30003C438C /* ViewController.swift */; };
+		FFB4584C20F22B30003C438C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FFB4584A20F22B30003C438C /* Main.storyboard */; };
+		FFB4584E20F22B30003C438C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FFB4584D20F22B30003C438C /* Assets.xcassets */; };
+		FFB4585120F22B30003C438C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FFB4584F20F22B30003C438C /* LaunchScreen.storyboard */; };
+		FFB4585D20F22B72003C438C /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFB4585820F22B71003C438C /* Extensions.swift */; };
+		FFB4585E20F22B72003C438C /* CollapsibleTableViewHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFB4585920F22B71003C438C /* CollapsibleTableViewHeader.swift */; };
+		FFB4585F20F22B72003C438C /* ExampleData.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFB4585A20F22B71003C438C /* ExampleData.swift */; };
+		FFB4586020F22B72003C438C /* CollapsibleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFB4585B20F22B71003C438C /* CollapsibleTableViewCell.swift */; };
+		FFB4586120F22B72003C438C /* CollapsibleTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFB4585C20F22B71003C438C /* CollapsibleTableViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FFB4584320F22B30003C438C /* CollapsibleSectionTable.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CollapsibleSectionTable.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FFB4584620F22B30003C438C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FFB4584820F22B30003C438C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FFB4584B20F22B30003C438C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FFB4584D20F22B30003C438C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FFB4585020F22B30003C438C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FFB4585220F22B30003C438C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FFB4585820F22B71003C438C /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		FFB4585920F22B71003C438C /* CollapsibleTableViewHeader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollapsibleTableViewHeader.swift; sourceTree = "<group>"; };
+		FFB4585A20F22B71003C438C /* ExampleData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExampleData.swift; sourceTree = "<group>"; };
+		FFB4585B20F22B71003C438C /* CollapsibleTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollapsibleTableViewCell.swift; sourceTree = "<group>"; };
+		FFB4585C20F22B71003C438C /* CollapsibleTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollapsibleTableViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FFB4584020F22B30003C438C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FFB4583A20F22B30003C438C = {
+			isa = PBXGroup;
+			children = (
+				FFB4584520F22B30003C438C /* CollapsibleSectionTable */,
+				FFB4584420F22B30003C438C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FFB4584420F22B30003C438C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FFB4584320F22B30003C438C /* CollapsibleSectionTable.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FFB4584520F22B30003C438C /* CollapsibleSectionTable */ = {
+			isa = PBXGroup;
+			children = (
+				FFB4585B20F22B71003C438C /* CollapsibleTableViewCell.swift */,
+				FFB4585C20F22B71003C438C /* CollapsibleTableViewController.swift */,
+				FFB4585920F22B71003C438C /* CollapsibleTableViewHeader.swift */,
+				FFB4585A20F22B71003C438C /* ExampleData.swift */,
+				FFB4585820F22B71003C438C /* Extensions.swift */,
+				FFB4584620F22B30003C438C /* AppDelegate.swift */,
+				FFB4584820F22B30003C438C /* ViewController.swift */,
+				FFB4584A20F22B30003C438C /* Main.storyboard */,
+				FFB4584D20F22B30003C438C /* Assets.xcassets */,
+				FFB4584F20F22B30003C438C /* LaunchScreen.storyboard */,
+				FFB4585220F22B30003C438C /* Info.plist */,
+			);
+			path = CollapsibleSectionTable;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FFB4584220F22B30003C438C /* CollapsibleSectionTable */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FFB4585520F22B30003C438C /* Build configuration list for PBXNativeTarget "CollapsibleSectionTable" */;
+			buildPhases = (
+				FFB4583F20F22B30003C438C /* Sources */,
+				FFB4584020F22B30003C438C /* Frameworks */,
+				FFB4584120F22B30003C438C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CollapsibleSectionTable;
+			productName = CollapsibleSectionTable;
+			productReference = FFB4584320F22B30003C438C /* CollapsibleSectionTable.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FFB4583B20F22B30003C438C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = vananh;
+				TargetAttributes = {
+					FFB4584220F22B30003C438C = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = FFB4583E20F22B30003C438C /* Build configuration list for PBXProject "CollapsibleSectionTable" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FFB4583A20F22B30003C438C;
+			productRefGroup = FFB4584420F22B30003C438C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FFB4584220F22B30003C438C /* CollapsibleSectionTable */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FFB4584120F22B30003C438C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFB4585120F22B30003C438C /* LaunchScreen.storyboard in Resources */,
+				FFB4584E20F22B30003C438C /* Assets.xcassets in Resources */,
+				FFB4584C20F22B30003C438C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FFB4583F20F22B30003C438C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFB4586120F22B72003C438C /* CollapsibleTableViewController.swift in Sources */,
+				FFB4584920F22B30003C438C /* ViewController.swift in Sources */,
+				FFB4585D20F22B72003C438C /* Extensions.swift in Sources */,
+				FFB4586020F22B72003C438C /* CollapsibleTableViewCell.swift in Sources */,
+				FFB4585E20F22B72003C438C /* CollapsibleTableViewHeader.swift in Sources */,
+				FFB4584720F22B30003C438C /* AppDelegate.swift in Sources */,
+				FFB4585F20F22B72003C438C /* ExampleData.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FFB4584A20F22B30003C438C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FFB4584B20F22B30003C438C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FFB4584F20F22B30003C438C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FFB4585020F22B30003C438C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FFB4585320F22B30003C438C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FFB4585420F22B30003C438C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FFB4585620F22B30003C438C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CollapsibleSectionTable/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = samplecode.tableview.CollapsibleSectionTable;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FFB4585720F22B30003C438C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CollapsibleSectionTable/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = samplecode.tableview.CollapsibleSectionTable;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FFB4583E20F22B30003C438C /* Build configuration list for PBXProject "CollapsibleSectionTable" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFB4585320F22B30003C438C /* Debug */,
+				FFB4585420F22B30003C438C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FFB4585520F22B30003C438C /* Build configuration list for PBXNativeTarget "CollapsibleSectionTable" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFB4585620F22B30003C438C /* Debug */,
+				FFB4585720F22B30003C438C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FFB4583B20F22B30003C438C /* Project object */;
+}
